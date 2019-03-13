@@ -1,0 +1,487 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hola",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "Adios",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "que tal está el clima en Lima",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 25,
+            "end": 29,
+            "value": "Lima",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "qué tal?",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "nos vemos",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "te hablo luego",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "cómo está el clima en Arequipa",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "Arequipa",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "qué tal está el clima en cuzco",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "cuzco",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "Cómo es el clima en trujillo",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "trujillo",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "nos vemos más tarde",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "hola por allí",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "me gustaría conocer el clima de tacna",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 32,
+            "end": 37,
+            "value": "tacna",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "quisiera saber el clima de iquitos",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "iquitos",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "hola hola",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "cómo estas?",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "cómo está el clima en buenos aires",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "buenos aires",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "qué tal el clima de londres",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "londres",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "bye, bye",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "ya nos vemos",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "hola qué tal",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "cómo está el clima en caracas",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "caracas",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "me gustaría saber el clima de miami",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "miami",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "cómo está el clima en los Angeles",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 22,
+            "end": 33,
+            "value": "los Angeles",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "me gustaría conocer el clima de santiago",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "santiago",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "hola cómo estás?",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "Hola!",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "ya nos vemos",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "ok, adios",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "me gustaría conocer el clima de cali",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 32,
+            "end": 36,
+            "value": "cali",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "quisiera saber el clima de Nueva york",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": " Nueva york",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "me gustaría conocer el clima de lambayeque",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 32,
+            "end": 42,
+            "value": "lambayeque",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "cómo está el clima en la molina",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "la molina",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "qué tal el clima en santiago, en estos momentos",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "santiago",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "actualmente cómo está el clima en iquitos",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 34,
+            "end": 41,
+            "value": "iquitos",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "quisiera saber como está el clima en Pekín en estos momentos",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 37,
+            "end": 43,
+            "value": "Pekín ",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "hola por allí",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "nos escribimos luego",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "te veo más tarde",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "hola qué tal!",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "que tal el clima en loreto, actualmente",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "loreto",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "qué tal el clima de caracas para hoy",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "caracas ",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "cómo está el clima de buenos aires para hoy",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "buenos aires",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "que tal está el clima de hoy en arequipa",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "arequipa",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "hoy como se siente en lima",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "lima",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "cómo se siente el clima en tacna",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 27,
+            "end": 32,
+            "value": "tacna",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "quisiera saber como se siente el clima en barcelona",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 42,
+            "end": 51,
+            "value": "barcelona",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "me gustaría saber como se siente el clima en paris",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 45,
+            "end": 50,
+            "value": "paris",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "quiero saber cómo se siente el clima en el cairo",
+        "intent": "info",
+        "entities": [
+          {
+            "start": 40,
+            "end": 48,
+            "value": "el cairo",
+            "entity": "ubicacion"
+          }
+        ]
+      },
+      {
+        "text": "Quiero conocer el clima de hoy",
+        "intent": "info",
+        "entities": []
+      },
+      {
+        "text": "Cómo está el clima actualmente?",
+        "intent": "info",
+        "entities": []
+      },
+      {
+        "text": "Me gustaría conocer el clima de hoy?",
+        "intent": "info",
+        "entities": []
+      },
+      {
+        "text": "Quisiera saber sobre el clima en este momento",
+        "intent": "info",
+        "entities": []
+      },
+      {
+        "text": "Quisiera saber el clima en este momento",
+        "intent": "info",
+        "entities": []
+      },
+      {
+        "text": "Me gustaría conocer el clima",
+        "intent": "info",
+        "entities": []
+      },
+      {
+        "text": "Me encantaría saber del clima",
+        "intent": "info",
+        "entities": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+slots:
+  ubicacion:
+    type: text
+
+intents:
+ - saludo
+ - despedida
+ - info
+
+entities:
+ - ubicacion
+
+templates:
+  utter_saludo:
+    - 'Hola, en qué te puedo ayudar?'
+    - 'Hola'
+    - 'Te puedo ayudar?'
+
+  utter_despedida:
+    - 'Adiós'
+    - 'Ok Adiós'
+    - 'Bien, nos escribimos luego'
+
+  utter_ask_ubicacion:
+    - 'En cuál lugar?'
+    - 'El clima de qué lugar?'
+    - 'Para qué lugar?'
+    - 'En cuál ciudad?'
+
+actions:
+ - utter_saludo
+ - utter_despedida
+ - utter_ask_ubicacion
+ - actions.ActionWeather
